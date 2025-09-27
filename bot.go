@@ -21,7 +21,7 @@ import (
 const (
 	defaultBotAPIServer = "https://api.telegram.org"
 
-	tokenRegexp = `^\d+:[\w-]{35}$` //nolint:gosec
+	tokenRegexp = `^\d+:[\w-]{35,}$` //nolint:gosec
 
 	attachFile = `attach://`
 
